@@ -1,0 +1,214 @@
+
+body{
+    background: linear-gradient(to bottom, #FFFFFF, #E0E0E0); 
+}
+.drawing-area{
+    position: absolute;
+    top: 60px;
+    left: 122px;
+    z-index: 10;
+    width: 200px;
+    height: 400px;
+}
+
+.canvas-box{
+    width: 200px; 
+    height: 400px; 
+    position: relative; 
+    user-select: none;
+}
+
+
+.tshirt-container {
+   position: relative;
+   width: 446px;
+   height: 509px;
+   box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.2);
+}   
+
+
+.tshirt-image {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+pointer-events: none;
+z-index: 3;
+}
+.tshirt-image-back{
+    height:509px;
+    pointer-events: none;
+    position: absolute;
+    width:540px;
+    z-index: 3;
+    margin-left:-506px;
+}
+
+.round-neck-front{
+    position: absolute;
+    user-select: none; 
+    cursor: default;
+    top: 100px !important;
+    left:187px !important;                       
+    width:174px !important;
+    height:178px !important;
+}
+
+.common-front{
+    position: absolute;                        
+    user-select: none; 
+    cursor: default;
+    top: 100px !important;
+    left:127px !important;
+    width:190px !important;
+    height:276px !important;
+}
+
+.common-back{
+    position: absolute;                        
+    user-select: none; 
+    cursor: default;
+    top: 100px !important;
+    left:181px !important;
+    width:180px !important;
+    height:238px !important;
+}
+
+.dry-back{
+    position: absolute;                        
+    user-select: none; 
+    cursor: default;
+    top: 90px !important;
+    left:132px !important;
+    width:190px !important;
+    height:278px !important;
+}
+
+.drawing-area {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+
+.Oversized{
+    position: absolute;
+    user-select: none; 
+    cursor: default;
+    top: 123px !important;
+    left:180px !important;
+    width:193px !important;                        
+    height:255px !important;
+}
+
+.Oversized_back{
+    position: absolute;
+    user-select: none; 
+    cursor: default;
+    top: 107px !important;
+    left:174px !important;
+    width:200px !important;                        
+    height:275px !important;
+}
+
+.Hoodie_front{
+    position: absolute;
+    user-select: none; 
+    cursor: default;                                    
+    top: 158px !important;
+    left:177px !important;
+    width:192px !important;
+    height:162px !important;
+}
+.Hoodie_back{
+    position: absolute;
+    user-select: none; 
+    cursor: default;                                    
+    top: 138px !important;
+    left:161px !important;
+    width:222px !important;
+    height:245px !important;
+}
+
+#delete-button{
+    background-color: rgb(253, 118, 118);
+    border: 2px solid red;
+    display: none;
+    color:white;
+    border-radius:4px;
+    box-shadow:1px 1px 9px rgb(172, 172, 172);
+    right:13px;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+.custom-file-upload input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload span {
+    margin-right: 8px;
+}
+
+.custom-file-upload:hover {
+    background-color: #0056b3;
+}
+
+#canva-front-box{
+    border:1px dashed #790000ab;
+}
+
+#canva-back-box{
+    border:1px dashed #790000ab;
+}
+
+.hidden{
+    display:none;
+}
+
+.frontShirt{
+display:block;
+}
+
+.backTShirt{
+display:none;
+}
+
+.active {
+  background-color:#a0daff;
+}
+
+.active_PB {
+  background-color:#a0daff !important;
+}
+
+.button {
+ background-color: white;
+ padding: 10px 20px;
+ font-size: 16px;
+ margin: 5px;
+ cursor: pointer;
+}
+
+.button_D{
+background-color:#a0daff ;
+}
+
+.frontbtn{
+background-color:#0dcaf0;
+}
+
+.image-plate{
+height:510px;
+overflow: scroll;
+}
